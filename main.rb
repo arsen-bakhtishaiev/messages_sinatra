@@ -7,7 +7,6 @@ require './encryption'
 
 get '/' do
 	@title = "Create message"
-	@message = Message.new
 	erb :form
 end
 
