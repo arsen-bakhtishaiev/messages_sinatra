@@ -3,7 +3,7 @@ class CreateMessages < ActiveRecord::Migration
    create_table :messages do |t|
      t.string :address
      t.text :message
-     t.time :creation_time
+     t.datetime :creation_time
      t.integer :message_type
      t.integer :access_counter
    end

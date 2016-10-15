@@ -1,4 +1,11 @@
 <form action="/form" method="post">
-  <input type="text" name="message">
-  <input type="submit" value="Create message">
+ 	<input type="text" name="message">
+	<br>
+	<input type="radio" name="messageType" value=0 id="firstVisit" checked="checked">
+ 		<label for ="firstVisit">Delete after first visit</label>
+ 	<br>
+ 	<input type="radio" name="messageType" value=1 id="oneHour">
+		<label for ="oneHour">Delete after one hour</label>
+	<br>
+	<input type="submit" value="Create message">
 </form>

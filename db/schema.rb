@@ -14,11 +14,11 @@
 ActiveRecord::Schema.define(version: 20161013220459) do
 
   create_table "messages", force: :cascade do |t|
-    t.string  "address"
-    t.text    "message"
-    t.time    "creation_time"
-    t.integer "message_type"
-    t.integer "access_counter"
+    t.string   "address"
+    t.text     "message"
+    t.datetime "creation_time"
+    t.integer  "message_type"
+    t.integer  "access_counter"
   end
 
 end
